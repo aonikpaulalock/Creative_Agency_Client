@@ -1,0 +1,23 @@
+.testimonials-user p {
+  font: normal 400 16px/160% var(--font-family);
+  color:var(--primary-color);
+  padding-right: 25px;
+  margin: 24px 0;
+}
+.testimonials-user h5 {
+  font: normal 700 16px/160% var(--font-family);
+  color:#1E212C;
+  margin-bottom: 4px;
+}
+.testimonials-user h6 {
+  font: normal 700 14px/150% var(--font-family);
+  color:#787A80;
+  margin-bottom: 0px;
+}
+.dotCostomazation {
+  bottom: 2% !important;
+  left: 60% !important;
+}
+.margin-nagetive {
+  margin-bottom: -50px;
+}

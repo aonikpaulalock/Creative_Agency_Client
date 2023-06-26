@@ -1,0 +1,60 @@
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background: url('../../assets/Home/Banner/Banner-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-main-heading {
+  font: normal 900 72px/130% var(--font-family);
+  color: var(--white);
+  letter-spacing: 1px;
+  margin: 26px 0 60px 0;
+}
+
+.banner-sub-heading {
+  font: normal 700 14px/150% var(--font-family);
+  color: var(--white);
+  margin-left: 10px;
+}
+
+.banner-button {
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  background: var(--primary, #F52F6E);
+  font: normal 700 16px/52px var(--font-family);
+  padding: 0px 40px;
+  color: var(--white);
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.banner-skills {
+  position: relative;
+}
+.banner-skills::before {
+  content: "";
+  width: 1px;
+  height: 120px;
+  background: #F52F6E;
+  position: absolute;
+  opacity: 0.699999988079071;
+}
+
+.banner-skills h6 {
+  font: normal 700 20px/150% var(--font-family);
+  color: var(--white);
+  opacity: 0.699999988079071;
+  margin: 0 0 0 24px;
+}
+
+.banner-award h6 {
+  font: normal 700 16px/150% var(--font-family);
+  color: var(--white);
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

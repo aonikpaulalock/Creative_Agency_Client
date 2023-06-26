@@ -1,0 +1,15 @@
+.wedo-container {
+  padding: 90px 0;
+}
+.weDo-heading h6 {
+  font: normal 700 16px/150% var(--font-family);
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.weDo-heading p {
+  font: normal 700 28px/150% var(--font-family);
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}

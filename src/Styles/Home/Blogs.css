@@ -1,0 +1,83 @@
+.blogs-container {
+    background: #F4F5F6;
+    padding: 100px 0 110px 0;
+}
+
+.card-hover-effect {
+    border-radius: 4px !important;
+    border: 1px solid #E5E8ED !important;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05) !important;
+    cursor: pointer;
+}
+
+.image-hover-effect {
+    visibility: hidden !important;
+}
+
+.card-hover-effect:hover .image-hover-effect {
+    visibility: visible !important;
+    opacity: 0.6000000238418579;
+}
+
+.card-hover-effect:hover .card-img-overlay {
+    border-radius: 4px !important;
+    background: #1E212C !important;
+    opacity: 0.6000000238418579 !important;
+}
+
+.card-hover-effect:hover .hover-head {
+    color: var(--white);
+}
+
+.card-hover-effect:hover .hover-read-more {
+    color: var(--white);
+}
+
+.card-hover-effect:hover .hover-arrow {
+    color: var(--white);
+}
+
+.card-img-overlay {
+    padding: 40px !important;
+}
+
+.hover-title {
+    font: normal 400 14px/150% var(--font-family);
+    color: #787A80
+}
+
+.hover-head {
+    font: normal 700 20px/150% var(--font-family);
+    color: var(--primary-color);
+}
+
+.hover-button {
+    position: absolute;
+    bottom: 12%;
+    right: 12%;
+}
+
+.hover-read-more {
+    font: normal 700 16px/150% var(--font-family);
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.hover-arrow {
+    color: var(--secondary-color);
+    margin-left: 8px;
+    font-weight: 700;
+}
+
+.blogs-button {
+    background-color: transparent !important;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    transition: .6s all linear;
+}
+.blogs-button:hover {
+    background-color: var(--secondary-color) !important;
+    color: var(--white);
+}

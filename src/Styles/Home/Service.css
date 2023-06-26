@@ -1,0 +1,57 @@
+.service-container {
+  margin: 90px 0 120px 0;
+}
+.service-heading h6{
+  font: normal 700 16px/150% var(--font-family) !important;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.service-heading h1{
+  font: normal 900 46px/160% var(--font-family) !important;
+  color: var(--primary-color);
+  margin-bottom: 60px;
+}
+.accordion-button {
+  position: relative;
+  border: none !important;
+}
+.accordion-button::after {
+  padding-left: 20px !important;
+  position: absolute;
+  left: 0;
+  background-image: url('../../assets/Home/Banner/Minus.svg') !important;
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets/Home/Banner/Plus.svg") !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background: transparent !important;
+  color: var(--primary-color) !important;
+}
+
+.accordion-item {
+  background: var(--white) !important;
+  border-radius: 5px !important;
+  border: none !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.collapse-design {
+  font: normal 700 28px/150% var(--font-family) !important;
+  color: var(--primary-color) !important;
+}
+
+.accordion-text {
+  font: normal 400 16px/160% var(--font-family) !important;
+  color: #787A80;
+  padding: 0 45px;
+}

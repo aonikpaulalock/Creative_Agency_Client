@@ -1,0 +1,28 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: 'Lato', sans-serif;
+  --primary-color: #1E212C;
+  --secondary-color: #F52F6E;
+  --white: #FFF;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Lato', sans-serif;
+}

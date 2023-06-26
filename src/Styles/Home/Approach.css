@@ -1,0 +1,34 @@
+.approach-container {
+  padding: 90px 0 ;
+} 
+.approuch-heading {
+  margin: 0 0 60px 0;
+}
+
+.approuch-heading h5 {
+  font: normal 700 16px/150% var(--font-family);
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.approuch-heading h1 {
+  font: normal 700 46px/130% var(--font-family);
+  color: var(--primary-color);
+  letter-spacing: 1px;
+}
+.approach-card h1 {
+  font: normal 700 46px/130% var(--font-family);
+  color: #D7DADD;
+}
+
+.approach-card h5 {
+  font: normal 700 20px/150% var(--font-family);
+  color: var(--primary-color);
+  margin: 16px 0 8px 0;
+}
+
+.approach-card p {
+  font: normal 400 16px/160% var(--font-family);
+  color: #787A80;
+}

@@ -1,0 +1,10 @@
+.nav-container {
+  margin: 20px 0 80px 0;
+}
+
+.nav-link {
+  font: normal 700 16px/160% var(--font-family) !important;
+  color: var(--white) !important;
+  opacity: 0.6000000238418579 !important;
+  margin-left: 30px !important;
+}
