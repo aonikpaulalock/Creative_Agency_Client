@@ -1,0 +1,21 @@
+.line {
+  margin: 0 105px;
+  width: 1px;
+  height: 288px;
+  background: linear-gradient(315deg, rgba(218, 219, 221, 0.00) 0%, rgba(218, 219, 221, 0.50) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.50) 87.85%, rgba(218, 219, 221, 0.00) 100%);
+}
+
+.platform-heading {
+  font: normal 700 28px/150% var(--font-family);
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.plactform-title {
+  font: normal 700 16px/150% var(--font-family);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #787A80;
+  margin-bottom:30px ;
+}

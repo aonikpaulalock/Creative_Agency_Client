@@ -1,0 +1,21 @@
+.team-container {
+  padding: 150px 0 180px 0;
+}
+.team-design {
+  font: normal 700 20px/150% var(--font-family) !important;
+}
+.team-text1 {
+    font: normal 500 16px/160% var(--font-family) !important;
+    color:#787A80 !important;
+    margin-bottom: 8px !important;
+}
+.team-text2 {
+    font: normal 400 14px/150% var(--font-family) !important;
+    color: #424551;
+}
+.image-team {
+  height: fit-content;
+}
+.team-heading h1 {
+  margin-bottom: 30px !important;
+}

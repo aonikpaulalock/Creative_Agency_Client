@@ -8,6 +8,8 @@ import TestimonialsLogo from './TestimonialsLogo';
 import Testimonials from './Testimonials';
 import Blogs from './Blogs';
 import Acchivement from './Acchivement';
+import Team from './Team';
+import CompanyLogo from './CompanyLogo';
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
       <Testimonials/>
       <Blogs/>
       <Acchivement/>
+      <Team/>
+      <CompanyLogo/>
     </>
   );
 };
