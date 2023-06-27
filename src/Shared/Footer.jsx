@@ -70,7 +70,7 @@ const Footer = () => {
             <div>
               <h5 className='hire-heading pb-2 '>SIGN UP TO OUR NEWSLETTER</h5>
               <div className='icon-placement'>
-                <input type="email" class="footer-input" placeholder="Email adress" />
+                <input type="email" className="footer-input" placeholder="Email adress" />
                 <BsArrowRight className='footer-icon' />
               </div>
               <h6 className='subscribe'>*Subscribe to our newsletter to receive communications and early updates from Createx Creative Agency.</h6>

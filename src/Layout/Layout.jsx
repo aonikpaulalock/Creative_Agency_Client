@@ -1,14 +1,12 @@
 import React from 'react';
 import Navber from '../Shared/Navber';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import Footer from '../Shared/Footer';
 
 const Layout = () => {
+  const location = useLocation()
   return (
     <div>
-        {/* <div>
-          <Navber />
-        </div> */}
         <div>
           <Outlet />
         </div>

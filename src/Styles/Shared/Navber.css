@@ -1,5 +1,5 @@
 .nav-container {
-  margin: 20px 0 80px 0;
+  padding: 20px 0 80px 0;
 }
 
 .nav-link {
@@ -7,4 +7,8 @@
   color: var(--white) !important;
   opacity: 0.6000000238418579 !important;
   margin-left: 30px !important;
+}
+
+.nav-link-condition {
+  color: #424551 !important;
 }

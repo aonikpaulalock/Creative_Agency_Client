@@ -1,0 +1,14 @@
+.portfolio-container {
+  background-color: #F4F5F6;
+  padding-bottom: 120px;
+  margin-bottom: 60px;
+}
+
+.portfolio-outlet-container a {
+  margin-right: 12px;
+  text-decoration: none;
+  font: normal 700 16px/160% var(--font-family);
+  color: #9A9CA5;
+  text-align: center;
+  padding: 10px 20px;
+}
