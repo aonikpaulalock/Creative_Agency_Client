@@ -47,6 +47,10 @@
   font: normal 700 20px/150% var(--font-family) !important;
   color: var(--primary-color) !important;
   margin: 16px 0 4px 0;
+  text-decoration: none;
+}
+.card-head:hover {
+  color: var(--secondary-color) !important;
 }
 
 .card-sub {

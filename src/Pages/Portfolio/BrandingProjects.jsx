@@ -1,11 +1,12 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import usePorfolio from '../../Hooks/usePortfolio';
 
 const BrandingProjects = () => {
-  const data = useLoaderData();
+  const [portfolio] = usePorfolio()
   return (
     <div className='row g-4'>
-    {data.filter(apps => apps.type.includes("Branding"))
+    {portfolio.filter(apps => apps.type.includes("Branding"))
       .map(app =>
         <div className="col-md-4" key={app._id}>
           <div className="card card-hover">

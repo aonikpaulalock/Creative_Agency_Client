@@ -5,7 +5,10 @@ import "../../Styles/Home/Projects.css"
 import { image } from '../../Data/Slider';
 import CustomLeftArrow from './TestimonialsLogo';
 import CustomRightArrow from './Testimonials';
+import usePorfolio from '../../Hooks/usePortfolio';
+import { Link } from 'react-router-dom';
 const Projects = () => {
+  const [portfolio] = usePorfolio()
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -43,12 +46,12 @@ const Projects = () => {
             renderDotsOutside={true}
           >
             {
-              image.images.map(imgag =>
-                <div className="card card-hover" key={imgag.id}>
-                  <img className="" src={imgag.img}/>
-                  <div className="">
-                    <h3 className='card-head'>{imgag.head}</h3>
-                    <h5 className='card-sub'>{imgag.title}</h5>
+              portfolio.slice(3,7).map(imgag =>
+                <div className="card card-hover" key={imgag._id}>
+                  <img className="img-fluid" src={imgag.img} />
+                  <div className="mt-3">
+                    <Link className='card-head'  to={`/portfolio/${imgag._id}`}>{imgag.heading}</Link>
+                    <h5 className='card-sub'>{imgag.type[0]}</h5>
                   </div>
                 </div>
               )
