@@ -8,6 +8,7 @@ import WebDesignProjects from "../Pages/Portfolio/WebDesignProjects";
 import BrandingProjects from "../Pages/Portfolio/BrandingProjects";
 import VideoProjects from "../Pages/Portfolio/VideoProjects";
 import PortfolioDetails from "../Pages/PorfolioDetails/PortfolioDetails";
+import DetailsContainer from "../Pages/PorfolioDetails/DetailsContainer";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -44,9 +45,10 @@ export const router = createBrowserRouter([
         ]
       },
       {
-        path: "/portfolio/:id",
-        element: <PortfolioDetails />
+        path: "/portfolio/:dynamicId",
+        element: <DetailsContainer />,
       }
     ]
+
   },
 ]);

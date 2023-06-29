@@ -1,13 +1,14 @@
 [
   {
     "heading": "Abstract Modern Graphic 3D Render",
-    "type": ["branding"],
+    "type": ["Branding"],
     "date": "May 26, 2020",
     "img": "https://i.ibb.co/r437Dp2/All-1.png",
     "projects": {
       "goal": "project goal",
       "projectHead": "Rebuild a unified visual system for the advertising agency, made of steel which can change the world in a while.",
       "des": "Sagittis, neque dignissim ante nullam ipsum adipiscing amet. Dignissim fermentum eget velit massa placerat faucibus integer nulla diam. Adipiscing interdum augue blandit enim, risus erat magna tristique. Nec porttitor enim ac est mauris pharetra. Phasellus senectus ipsum vulputate feugiat vitae. Vivamus massa eu sed in netus. Mattis nunc, in aliquam et. Egestas  tellus mauris turpis sagittis convallis eget.",
+      
       "Strategy": [
         "Brand Strategy",
         "UX Strategy"
@@ -235,7 +236,20 @@
     "projects": {
       "goal": "project goal",
       "projectHead": "Rebuild a unified visual system for the advertising agency, made of steel which can change the world in a while.",
-      "des": "Sagittis, neque dignissim ante nullam ipsum adipiscing amet. Dignissim fermentum eget velit massa placerat faucibus integer nulla diam. Adipiscing interdum augue blandit enim, risus erat magna tristique. Nec porttitor enim ac est mauris pharetra. Phasellus senectus ipsum vulputate feugiat vitae. Vivamus massa eu sed in netus. Mattis nunc, in aliquam et. Egestas  tellus mauris turpis sagittis convallis eget."
+      "des": "Sagittis, neque dignissim ante nullam ipsum adipiscing amet. Dignissim fermentum eget velit massa placerat faucibus integer nulla diam. Adipiscing interdum augue blandit enim, risus erat magna tristique. Nec porttitor enim ac est mauris pharetra. Phasellus senectus ipsum vulputate feugiat vitae. Vivamus massa eu sed in netus. Mattis nunc, in aliquam et. Egestas  tellus mauris turpis sagittis convallis eget.",
+      "Strategy": [
+        "Brand Strategy",
+        "UX Strategy"
+      ],
+      "Category": [
+        "Branding",
+        "Mobile app"
+      ],
+      "Design": [
+        "UI/UX Design ",
+        "Art Direction"
+      ],
+      "Client": "https://i.ibb.co/m92rZw5/envato.png"
     },
     "challange": {
       "challangeHead": "CHALLENGE",

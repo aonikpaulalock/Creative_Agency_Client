@@ -1,0 +1,71 @@
+.goal-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.details-type {
+  font: normal 400 16px/160% var(--font-family);
+  color:#787A80;
+}
+.details-head {
+  font: normal 900 46px/130% var(--font-family);
+  color: var(--primary-color);
+  margin: 0px 0 60px 0;
+}
+
+.projects-goal {
+  font: normal 700 16px/150% var(--font-family);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: var(--primary-color);
+}
+
+.project-head {
+  font: normal 700 20px/150% var(--font-family);
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.projects-description {
+  font: normal 400 16px/160% var(--font-family);
+  color: #787A80;
+}
+
+.project-sub {
+  font: normal 700 16px/160% var(--font-family);
+  color: var(--primary-color);
+}
+
+.project-title {
+  font: normal 400 14px/150% var(--font-family);
+  color: #424551;
+  padding-bottom:2px;
+}
+.details-logo {
+  background: transparent !important;
+  border: 1px solid #D7DADD;
+  transition: .6s all linear;
+}
+.details-logo:hover {
+  border: none;
+  background: var(--secondary-color) !important;
+}
+.brand-icon-facebook,
+.brand-icon-instagram,
+.brand-icon-twitter,
+.brand-icon-behance,
+.brand-icon-dribble {
+  color: #787A80 !important;
+}
+.brand-icon-facebook:hover,
+.brand-icon-instagram:hover,
+.brand-icon-twitter:hover,
+.brand-icon-behance:hover,
+.brand-icon-dribble:hover {
+  color: var(--white) !important;
+}
+.quote-user {
+  color: var(--secondary-color);
+  font-size: 28px;
+}
