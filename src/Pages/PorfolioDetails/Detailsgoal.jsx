@@ -2,7 +2,7 @@ import React from 'react';
 import "../../Styles/PortfolioDetails/PortfolioDetais.css"
 import { BiLogoInstagram } from 'react-icons/bi';
 import { FaFacebookF } from 'react-icons/fa';
-import { BsArrowRight,BsTwitter,BsBehance,BsDribbble } from 'react-icons/bs';
+import {BsTwitter,BsBehance,BsDribbble } from 'react-icons/bs';
 const Detailsgoal = ({ details }) => {
   return (
     <div className='col'>

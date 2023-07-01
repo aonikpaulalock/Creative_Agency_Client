@@ -1,0 +1,98 @@
+.vision,
+.mision,
+.values {
+  font: normal 900 46px/130% var(--font-family);
+  margin-bottom: 15px;
+}
+
+.vision {
+  color: var(--secondary-color);
+}
+
+.mision {
+  color: #424551;
+}
+
+.values {
+  color: #9A9CA5;
+}
+
+.vision_mission_valus_title {
+  font: normal 400 20px/160% var(--font-family);
+  color: #424551;
+}
+
+.clients-heading {
+  margin: 0 0 20px 0;
+}
+
+.about_team_conatiner {
+  margin: 50px 0 180px 0;
+}
+
+.team-author {
+  font: normal 700 20px/150% var(--font-family);
+  color: #424551;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.team-title {
+  font: normal 400 16px/160% var(--font-family);
+  color: #787A80;
+  text-align: center;
+}
+
+.team-hover {
+  position: relative;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.team_brand {
+  background: rgba(255, 255, 255, 0.12) !important;
+  border: none !important;
+  transition: .2s all linear;
+}
+
+.team_brand:hover {
+  background: var(--white) !important;
+}
+
+.team_icon {
+  color: var(--white) !important;
+  transition: .2s all linear;
+}
+
+.team_icon:hover {
+  color: var(--secondary-color) !important;
+}
+
+.image-ovelay::after {
+  display: none;
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(30, 33, 44, 0.00) 43.90%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.77) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%);
+  border-radius: 4px;
+}
+
+.team-logo-placement {
+  position: absolute;
+  display: none;
+  z-index: 3;
+  bottom: 5%;
+  right: 3%;
+}
+
+.team-hover:hover .image-ovelay::after {
+  display: block;
+}
+
+.team-hover:hover .team-logo-placement {
+  display: block;
+}

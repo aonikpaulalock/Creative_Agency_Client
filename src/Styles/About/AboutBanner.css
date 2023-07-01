@@ -1,0 +1,31 @@
+.about-content {
+  background: #F4F5F6;
+  padding: 40px;
+}
+
+.about-title {
+  padding-right: 150px;
+}
+
+.about-sub-title {
+  font: normal 400 16px/160% var(--font-family) !important;
+  color: #787A80;
+}
+
+.about-watch {
+  color: var(--primary-color);
+  margin-left: 10px;
+}
+
+.about-link {
+  font: normal 700 14px/150% var(--font-family);
+  color: #424551;
+  text-decoration: none;
+}
+.about-image {
+  width: 705px;
+  height: 494px;
+  object-fit: cover;
+  margin-left: -200px;
+  margin-top: -160px;
+}

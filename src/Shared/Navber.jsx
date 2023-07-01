@@ -24,7 +24,7 @@ const Navber = () => {
                 <Link className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`} aria-current="page" to="/portfolio">Portfolio</Link>
               </li>
               <li className="nav-item">
-                <NavLink className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`} aria-current="page" href="#">About Us</NavLink>
+                <NavLink className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`} aria-current="page" href="/about">About Us</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`} aria-current="page" href="#">Blog</NavLink>
