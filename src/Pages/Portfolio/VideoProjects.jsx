@@ -9,7 +9,7 @@ const VideoProjects = () => {
         .map(app =>
           <div className="col-md-4" key={app._id}>
             <div className="card card-hover">
-              <img className="img-fluid" src={app.img} />
+              <img className="w-100" src={app.img} height={440} />
               <div className="">
                 <h3 className='card-head'>{app.heading}</h3>
                 <h5 className='card-sub'>{app.type[0]}</h5>

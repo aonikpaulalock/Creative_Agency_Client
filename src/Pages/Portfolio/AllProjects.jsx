@@ -10,7 +10,7 @@ const AllProjects = () => {
         portfolio.map(data =>
           <div className="col-md-4"  key={data._id}>
             <div className="card card-hover">
-              <img className="img-fluid" src={data.img}  />
+              <img className="w-100" src={data.img} height={440} />
               <div className="">
                 <Link className='card-head' to={`/portfolio/${data._id}`}>{data.heading}</Link>
                 <h5 className='card-sub'>{data.type[0]}</h5>

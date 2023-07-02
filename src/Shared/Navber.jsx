@@ -24,13 +24,13 @@ const Navber = () => {
                 <Link className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`} aria-current="page" to="/portfolio">Portfolio</Link>
               </li>
               <li className="nav-item">
-                <NavLink className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`} aria-current="page" href="/about">About Us</NavLink>
+                <Link className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`} aria-current="page" to="/about">About Us</Link>
               </li>
               <li className="nav-item">
-                <NavLink className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`} aria-current="page" href="#">Blog</NavLink>
+                <Link className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`} aria-current="page" to="/blogs" >Blog</Link>
               </li>
               <li className="nav-item">
-                <NavLink className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`}aria-current="page" href="#">Contact</NavLink>
+                <Link className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`}aria-current="page" to="#">Contact</Link>
               </li>
             </ul>
             <button className='banner-button'>Lets talk</button>

@@ -1,0 +1,133 @@
+.blogs-head {
+  margin-bottom: 8px !important;
+}
+.blogs-head:hover {
+ color: var(--secondary-color);
+}
+
+.blogs-sub {
+  color: #424551;
+}
+
+.bold-author {
+  font-weight: 700 !important;
+}
+
+.Blogs_input {
+  border-radius: 4px !important;
+  border: 1px solid #D7DADD !important;
+  background: #F4F5F6 !important;
+  font: normal 400 14px/150% var(--font-family) !important;
+  color: #9A9CA5 !important;
+}
+
+.blogs_input_icon {
+  color: #424551 !important;
+  top: 35% !important;
+}
+
+.recent-head {
+  font: normal 700 16px/160% var(--font-family);
+  color: #1E212C;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.recent-main {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 60px 0 24px 0;
+}
+
+.recent-sub {
+  margin-bottom: 2px;
+}
+
+.tags-button {
+  border: 1px solid #D7DADD;
+  outline: none;
+  border-radius: 40px;
+  background: transparent;
+  font: normal 700 14px/150% var(--font-family);
+  padding: 5px 16px;
+  color: #787A80;
+  text-align: center;
+  margin: 0 12px 12px 0;
+}
+
+.tags-button:hover {
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+.overlay-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.overlay-icon:hover .image_overlay::after {
+  display: block;
+}
+
+.overlay-icon:hover .icon-latest {
+  display: block;
+}
+
+.image_overlay::after {
+  display: none;
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: #1E212C;
+  opacity: 0.4000000059604645;
+}
+
+.icon-latest {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  font-size: 28px;
+  color: var(--white);
+}
+
+.social_media {
+  background: #e4e4e4;
+}
+
+.social_media:hover {
+  background: #ffc8d9;
+}
+
+.social_icon {
+  font-size: 16px;
+  color: #787A80;
+}
+
+.social_icon:hover {
+  color: var(--secondary-color);
+}
+
+.blogs_hover {
+  text-decoration: none;
+}
+.blogs_hover:hover {
+  color: var(--secondary-color) !important;
+}
+
+
+/* .social_facebook,
+.social_instagram,
+.social_twitter,
+.social_behance,
+.social_dribbble {
+  font-size: 16px;
+  color: #787A80;
+} */
