@@ -26,6 +26,31 @@ const Contact_New_Project = () => {
               <input type="email" class="footer-input Blogs_input contact_input" id="exampleInputProject" aria-describedby="emailHelp" placeholder="Title your project" />
             </div>
           </div>
+          <div className='d-flex justify-content-between align-items-center my-4'>
+            <div class="form-group w-100 me-5">
+              <label for="" className='input_lebel'>Approx Budget *</label>
+              <select class="footer-input Blogs_input contact_input" aria-label=".form-select-lg example">
+                <option selected>Your Approx Budget</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="form-group w-100">
+              <label for="" className='input_lebel'>Other Skill Sets You Require *</label>
+              <select class="footer-input Blogs_input contact_input" aria-label=".form-select-lg example">
+                <option selected>Skill sets you require</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group w-100 mb-5">
+            <label for="exampleInputTextarea" className='input_lebel'>Project details*</label>
+           <textarea name="" id="exampleInputTextarea" placeholder ="Brief project details" className='footer-input Blogs_input contact_input'></textarea>
+          </div>
+          <button className='banner-button'>Lets make something</button>
         </form>
       </div>
     </div>
