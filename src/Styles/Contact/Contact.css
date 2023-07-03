@@ -38,6 +38,18 @@
   color: #1E212C;
   margin-top: 20px;
 }
+
 .about_company_margin {
   margin-top: 150px;
+}
+
+.contact_accordion_button {
+  font: normal 700 20px/150% var(--font-family);
+  color: var(--primary-color);
+}
+
+.contact_accordion_title {
+  font: normal 400 16px/150% var(--font-family);
+  color:#787A80;
+  padding-left: 35px;
 }

@@ -1,21 +1,27 @@
-.team-container {
-  padding: 150px 0 180px 0;
+.home_team_container {
+  margin: 120px 0 180px 0;
 }
-.team-design {
+.home_accordion_button {
   font: normal 700 20px/150% var(--font-family) !important;
+  color: var(--primary-color) !important;
 }
-.team-text1 {
-    font: normal 500 16px/160% var(--font-family) !important;
-    color:#787A80 !important;
-    margin-bottom: 8px !important;
+
+.home_degisnation {
+  font: normal 400 16px/160% var(--font-family) !important;
+  color: #787A80;
 }
-.team-text2 {
-    font: normal 400 14px/150% var(--font-family) !important;
-    color: #424551;
+
+.home_accordion_title {
+  font: normal 400 14px/150% var(--font-family) !important;
+  color: #424551;
 }
-.image-team {
-  height: fit-content;
+.team_image {
+  width: 390px;
+  height: 100%;
+  object-fit: scale-down;
 }
+
 .team-heading h1 {
   margin-bottom: 30px !important;
 }
+
