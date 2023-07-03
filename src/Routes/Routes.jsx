@@ -19,6 +19,10 @@ import Inspiration_Blogs from "../Pages/Blogs/Inspiration_Blogs";
 import News_Blogs from "../Pages/Blogs/News_Blogs";
 import Culture_Blogs from "../Pages/Blogs/Culture_Blogs";
 import Blog_Details from "../Pages/Blog_Details/Blog_Details";
+import Contact from "../Pages/Contact/Contact";
+import Contact_Join_Team from "../Pages/Contact/Contact_Join_Team";
+import Contact_New_Project from "../Pages/Contact/Contact_New_Project";
+import Contact_General_Inquiries from "../Pages/Contact/Contact_General_Inquiries";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -95,6 +99,24 @@ export const router = createBrowserRouter([
       {
         path: "/blogs/:id",
         element: <Blog_Details />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+        children: [
+          {
+            path: "/contact",
+            element: <Contact_New_Project />
+          },
+          {
+            path: "join",
+            element: <Contact_Join_Team />
+          },
+          {
+            path: "inquiries",
+            element: <Contact_General_Inquiries />
+          }
+        ]
       }
     ]
 

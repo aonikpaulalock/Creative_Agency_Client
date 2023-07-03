@@ -1,0 +1,40 @@
+.contact-link a {
+  display: block;
+  font: normal 700 28px/150% var(--font-family);
+  color: #9A9CA5;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+
+.contact_adress {
+  margin-top: 80px;
+}
+
+.contact_adress h6 {
+  font: normal 700 16px/150% var(--font-family);
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contact_adress h5 {
+  font: normal 400 14px/150% var(--font-family);
+  color: #424551;
+}
+
+.input_lebel {
+  font: normal 400 16px/150% var(--font-family);
+  color: #424551;
+  margin-bottom: 8px;
+}
+
+.contact_input {
+  font-size: 16px !important;
+  padding: 13px 16px;
+}
+
+.contact_form_head {
+  font: normal 400 20px/150% var(--font-family);
+  color: #1E212C;
+  margin-top: 20px;
+}
