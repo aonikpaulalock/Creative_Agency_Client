@@ -8,7 +8,7 @@ const AllProjects = () => {
     <div className='row g-4'>
       {
         portfolio.map(data =>
-          <div className="col-md-4"  key={data._id}>
+          <div className="col-lg-4 col-md-6"  key={data._id}>
             <div className="card card-hover">
               <img className="w-100" src={data.img} height={440} />
               <div className="">

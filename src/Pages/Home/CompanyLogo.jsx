@@ -6,26 +6,26 @@ import upwork from "../../assets/Home/Build-logo/upwork.png"
 import email from "../../assets/Home/Build-logo/email.png"
 const CompanyLogo = () => {
   return (
-    <div className='container d-flex justify-content-center align-align-items-center mb-5 pb-5'>
+    <div className='container d-block d-md-flex justify-content-md-center align-items-md-center mb-5 pb-5'>
       <div>
         <h5 className='platform-heading'>Let's build something amazing together!</h5>
-        <div className='d-flex justify-content-around '>
+        <div className='d-md-flex justify-content-md-around justify-content-center'>
           <div>
             <h5 className='plactform-title'>Follow us</h5>
-            <img src={dribble} alt="" />
+            <img src={dribble} alt="" className='img-fluid  w-100' />
             <br />
             <br />
-            <img src={behance} alt="" />
+            <img src={behance} alt="" className='img-fluid w-100' />
           </div>
-          <div className='line'>
+          <div className='line d-md-block d-none'>
 
           </div>
-          <div>
+          <div className='mt-5 mt-md-0'>
             <h5 className='plactform-title'>Get in touch</h5>
-            <img src={upwork} alt="" />
+            <img src={upwork} alt="" className='img-fluid  w-100' />
             <br />
             <br />
-            <img src={email} alt="" />
+            <img src={email} alt="" className='img-fluid  w-100' />
           </div>
         </div>
       </div>

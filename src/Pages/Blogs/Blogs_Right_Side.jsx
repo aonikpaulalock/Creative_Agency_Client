@@ -6,7 +6,7 @@ import Social_Media from './Social_Media';
 import Latest_Projects from './Latest_Projects';
 const Blogs_Right_Side = () => {
   return (
-    <div className='me-3'>
+    <div className='ms-0 ms-md-5'>
       <div className='icon-placement'>
         <input type="text" className="footer-input Blogs_input" placeholder="Search the blog.." />
         <BiSearch className='footer-icon blogs_input_icon' />

@@ -8,17 +8,21 @@ const PortfolioBanner = () => {
       <div className='position-dot'>
         <div className="container">
           <Navber />
-          <div className="portfolio-content d-flex justify-content-between  align-items-center ">
-            <div className="slider-heading">
-              <h5>Our Work</h5>
-              <h1>Portfolio</h1>
+          <div className="row">
+            <div className="col-lg-4 col-12">
+              <div className="slider-heading">
+                <h5>Our Work</h5>
+                <h1>Portfolio</h1>
+              </div>
             </div>
-            <div className="portfolio-outlet-container">
-              <NavLink to="/portfolio">All</NavLink>
-              <NavLink to="apps">Mobile Apps</NavLink>
-              <NavLink to="web">Web Design</NavLink>
-              <NavLink to="branding">Branding</NavLink>
-              <NavLink to="video">Video Production</NavLink>
+            <div className="col-lg-8 col-12 d-flex justify-content-center align-items-center">
+              <div className="portfolio-outlet-container">
+                <NavLink className="portfolio_link" to="/portfolio">All</NavLink>
+                <NavLink className="portfolio_link" to="apps">Mobile Apps</NavLink>
+                <NavLink className="portfolio_link" to="web">Web Design</NavLink>
+                <NavLink className="portfolio_link" to="branding">Branding</NavLink>
+                <NavLink className="portfolio_link" to="video">Video Production</NavLink>
+              </div>
             </div>
           </div>
           <Outlet />

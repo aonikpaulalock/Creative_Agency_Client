@@ -7,7 +7,7 @@ import DetailsUser from './DetailsUser';
 
 const PortfolioDetails = ({details}) => {
   return (
-    <div className='portfolio-details-container'>
+    <div className='portfolio-details-container p-3 p-sm-0'>
       <div className="container">
         <Navber />
         <div className="row">

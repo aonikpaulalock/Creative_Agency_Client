@@ -19,11 +19,11 @@ const About_Team = () => {
         <div className="row g-3">
           {
             client_Team.teams.map(team =>
-              <div key={team.id} className='col-md-3'>
+              <div key={team.id} className='col-lg-3 col-md-4 col-sm-6 col-12'>
                 <div>
                   <div className='team-hover'>
                     <div className='image-ovelay'>
-                      <img src={team.img} alt="" className='img-fluid' />
+                      <img src={team.img} alt="" className='img-fluid w-100' />
                     </div>
                     <div className='team-logo-placement'>
                       <div className='d-flex'>

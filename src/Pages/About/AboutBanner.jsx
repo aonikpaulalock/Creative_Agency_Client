@@ -11,7 +11,7 @@ const AboutBanner = () => {
       <div className="container">
         <Navber />
         <div className="row">
-          <div className="col-md-5">
+          <div className="col-lg-5">
             <div className='about-heading slider-heading'>
               <h5>About Us</h5>
               <h1>We are born to Design Experience.</h1>
@@ -19,7 +19,7 @@ const AboutBanner = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-7">
+          <div className="col-lg-7 order-lg-1 order-2">
             <div className='about-content'>
               <div className='slider-heading'>
                 <h5>est 2014</h5>
@@ -43,7 +43,7 @@ const AboutBanner = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-5">
+          <div className="col-lg-5 order-lg-2 order-1">
             <img src={aboutBanner} alt="" className='about-image' />
           </div>
         </div>

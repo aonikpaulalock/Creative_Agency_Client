@@ -6,7 +6,7 @@ const Social_Media = () => {
   return (
     <div>
       <h1 className='recent-main recent-head'>Social Media</h1>
-      <div className='d-flex'>
+      <div className='d-flex mb-5'>
         <div className='brand me-2 social_media'>
           <FaFacebookF className='social_facebook social_icon' />
         </div>

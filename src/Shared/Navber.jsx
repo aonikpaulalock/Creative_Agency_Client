@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Logo from '../assets/Home/Banner/navLogo.png';
 import Logo1 from "../assets/Home/Banner/logo1.png"
 import { NavLink } from 'react-bootstrap';
 import "../Styles/Shared/Navber.css"
 const Navber = () => {
-  const location = useLocation()
+  const location = useLocation();
+  const navigate = useNavigate()
   return (
     <div className="nav-container">
       <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -15,7 +16,7 @@ const Navber = () => {
              location.pathname !== "/" ?  <img src={Logo1} alt="" /> : <img src={Logo} alt="" />
             }
           </Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -33,7 +34,7 @@ const Navber = () => {
                 <Link className={`nav-link ${location.pathname !== "/" &&"nav-link-condition"}`}aria-current="page" to="/contact">Contact</Link>
               </li>
             </ul>
-            <button className='banner-button'>Lets talk</button>
+            <button className='banner-button' onClick={() => navigate("/contact")}>Lets talk</button>
           </div>
         </div>
       </nav >

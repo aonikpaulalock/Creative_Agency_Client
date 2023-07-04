@@ -12,3 +12,7 @@
 .nav-link-condition {
   color: #424551 !important;
 }
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,.1);
+  color: rgba(0,0,0,.55);
+}

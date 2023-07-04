@@ -13,12 +13,12 @@ const BlogsBanner = () => {
           <h1>Our blog</h1>
         </div>
       </div>
-      <div className="row gx-5">
+      <div className="row">
         {/* Left Blogs */}
-        <div className="col-sm-8">
+        <div className="col-lg-8">
           <Blogs_Left_Side />
         </div>
-        <div className="col-sm-4">
+        <div className="col-lg-4">
           {/* Left Blogs */}
           <Blogs_Right_Side />
         </div>

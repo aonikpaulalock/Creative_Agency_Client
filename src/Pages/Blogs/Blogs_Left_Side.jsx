@@ -3,15 +3,15 @@ import { NavLink, Outlet } from 'react-router-dom';
 
 const Blogs_Left_Side = () => {
   return (
-    <div className='row me-4'>
+    <div className='row'>
       <div className='col'>
         <div className="portfolio-outlet-container">
-          <NavLink to="/blogs">All</NavLink>
-          <NavLink to="creativity">Creativity</NavLink>
-          <NavLink to="design">Design</NavLink>
-          <NavLink to="inspiration">Inspiration</NavLink>
-          <NavLink to="news">News</NavLink>
-          <NavLink to="culture">Culture</NavLink>
+          <NavLink className="portfolio_link" to="/blogs">All</NavLink>
+          <NavLink className="portfolio_link" to="creativity">Creativity</NavLink>
+          <NavLink className="portfolio_link" to="design">Design</NavLink>
+          <NavLink className="portfolio_link" to="inspiration">Inspiration</NavLink>
+          <NavLink className="portfolio_link" to="news">News</NavLink>
+          <NavLink className="portfolio_link" to="culture">Culture</NavLink>
         </div>
         <div className="row">
           <div className="col">

@@ -20,18 +20,18 @@ const Projects = () => {
       items: 3
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 740 },
       items: 2
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 740, min: 0 },
       items: 1
     }
   };
   return (
     <div className='slider-container'>
       <div className='container'>
-        <div className="d-flex justify-content-between align-items-center  ">
+        <div className="d-md-flex justify-content-between align-items-center mb-5 mb-md-0 ">
           <div className='slider-heading'>
             <h5>Enjoy our latest projects</h5>
             <h1>Selected work</h1>
@@ -48,7 +48,7 @@ const Projects = () => {
             {
               portfolio.slice(3,7).map(imgag =>
                 <div className="card card-hover" key={imgag._id}>
-                  <img className="img-fluid" src={imgag.img} />
+                  <img className="" src={imgag.img}height={440} />
                   <div className="mt-3">
                     <Link className='card-head'  to={`/portfolio/${imgag._id}`}>{imgag.heading}</Link>
                     <h5 className='card-sub'>{imgag.type[0]}</h5>

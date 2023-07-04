@@ -9,7 +9,7 @@ const All_Blogs = () => {
       {
         blogs.map(blog =>
           <div key={blog._id} className='col-12'>
-            <img src={blog.long_img} alt="" className='img-fluid rounded-1' />
+            <img src={blog.long_img} alt="" className='img-fluid rounded-1 w-100' />
             <div className='d-flex justify-content-between align-items-center  mt-2'>
               <div className='d-flex justify-content-between align-items-center'>
                 <h6 className='card-sub'>{blog.type} | </h6>

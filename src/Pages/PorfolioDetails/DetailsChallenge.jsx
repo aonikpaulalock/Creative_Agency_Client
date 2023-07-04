@@ -6,7 +6,7 @@ const DetailsChallenge = ({ details }) => {
       <div className='row'>
         <div className="col">
           <img src={details.challange?.img} alt=""
-            className='img-fluid ' />
+            className='img-fluid w-100' />
         </div>
       </div>
       <div className='row d-flex justify-content-center align-align-items-center my-5 py-3'>

@@ -9,7 +9,7 @@ const Services = () => {
         <h1>Our services</h1>
       </div>
       <div className="row">
-        <div className="col-md-5">
+        <div className="col-lg-5 order-lg-1 order-2">
           <div className="accordion-container">
             <div className="accordion-container">
               <div className="accordion" id="myAccordion">
@@ -60,8 +60,8 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-6 offset-1">
-          <img src={service} alt="" />
+        <div className="col-lg-6 offset-lg-1 offset-0 order-lg-2 order-1">
+          <img src={service} alt="" className='img-fluid' />
         </div>
       </div>
     </div>

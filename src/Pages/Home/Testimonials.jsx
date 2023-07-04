@@ -34,8 +34,8 @@ const Testimonials = () => {
   };
   return (
     <div className='container'>
-      <div className="row">
-        <div className="col-lg-6">
+      <div className="row mb-md-0 mb-5">
+        <div className="col-lg-6 col-12 order-lg-1 order-2">
           <div className='slider-heading'>
             <h5>TESTIMONIALS</h5>
             <h1>What they say about us</h1>
@@ -61,7 +61,7 @@ const Testimonials = () => {
             </Carousel>
           </div>
         </div>
-        <div className="col-lg-5 offset-1 ">
+        <div className="col-lg-5 col-12 offset-lg-1 offset-0  order-lg-2 order-1">
           <img src={testImg} alt="" className='margin-nagetive' />
         </div>
       </div>

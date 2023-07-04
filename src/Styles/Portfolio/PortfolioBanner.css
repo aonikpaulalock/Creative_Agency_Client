@@ -8,11 +8,44 @@
   background: url("../../assets/Home/Banner/dots-pattern.png") no-repeat top left;
 }
 
-.portfolio-outlet-container a {
+.portfolio_link {
   margin-right: 12px;
   text-decoration: none;
   font: normal 700 16px/160% var(--font-family);
   color: #9A9CA5;
   text-align: center;
   padding: 10px 20px;
+}
+
+
+@media (max-width:775px) {
+  .portfolio-outlet-container {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .portfolio_link {
+    margin-right: 5px;
+    text-align: center;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width:540px) {
+  .slider-heading {
+    text-align: center;
+  }
+
+  .portfolio-outlet-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .portfolio_link {
+    display: block;
+    font-size: 20px !important;
+    text-align: center;
+    padding: 10px 10px;
+  }
+
 }

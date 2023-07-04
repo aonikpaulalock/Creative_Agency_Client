@@ -6,7 +6,7 @@ const Blogs = () => {
   return (
     <div className="blogs-container">
       <div className='container'>
-        <div className="d-flex justify-content-between align-items-center">
+        <div className="d-md-flex justify-content-between align-items-center mb-5 mb-md-0">
           <div className='slider-heading'>
             <h5>Enjoy our latest projects</h5>
             <h1>Selected work</h1>
@@ -16,7 +16,7 @@ const Blogs = () => {
         <div className="row g-3 ">
           {
             homeBlog.blogs.map(blog =>
-              <div className='col-md-4' key={blog.id}>
+              <div className='col-lg-4 col-md-6' key={blog.id}>
                 <div className="card card-hover-effect">
                   <img className="image-hover-effect" src={blog.img} alt="img-fluid" />
                   <div className="card-img-overlay">

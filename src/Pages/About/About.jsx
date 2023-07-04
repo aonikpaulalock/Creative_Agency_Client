@@ -7,7 +7,7 @@ import CompanyLogo from '../Home/CompanyLogo';
 
 const About = () => {
   return (
-    <div>
+    <div className='p-3 p-sm-0'>
       <AboutBanner/>
       <Vision_Mision_Valus/>
       <About_Client/>

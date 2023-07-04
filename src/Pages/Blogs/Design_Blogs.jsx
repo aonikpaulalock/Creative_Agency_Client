@@ -9,7 +9,7 @@ const Design_Blogs = () => {
       {blogs.filter(blog => blog.type.includes("Design"))
         .map(article =>
           <div key={article._id} className='col-12'>
-            <img src={article.long_img} alt="" className='img-fluid rounded-1' />
+            <img src={article.long_img} alt="" className='img-fluid rounded-1 w-100' />
             <div className='d-flex justify-content-between align-items-center  mt-2'>
               <div className='d-flex justify-content-between align-items-center'>
                 <h6 className='card-sub'>{article.type} | </h6>

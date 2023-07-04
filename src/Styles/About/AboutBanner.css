@@ -22,10 +22,22 @@
   color: #424551;
   text-decoration: none;
 }
+
 .about-image {
   width: 705px;
   height: 494px;
   object-fit: cover;
   margin-left: -200px;
   margin-top: -160px;
+}
+
+@media (max-width:990px) {
+  .about-image {
+    width: 100%;
+    height: 494px;
+    object-fit: cover;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
 }
