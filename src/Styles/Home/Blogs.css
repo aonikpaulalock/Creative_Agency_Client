@@ -81,3 +81,10 @@
     background-color: var(--secondary-color) !important;
     color: var(--white);
 }
+
+@media (max-width:600px) {
+    .blogs-container {
+        background: #F4F5F6;
+        padding: 50px 0 50px 0;
+    }
+  }

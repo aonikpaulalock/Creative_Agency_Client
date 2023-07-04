@@ -5,13 +5,13 @@ import { FaFacebookF, FaQuoteLeft } from 'react-icons/fa';
 
 const Details_left = ({ details }) => {
   return (
-    <div className='row me-5 mb-5'>
+    <div className='row me-lg-5 me-0 mb-5 g-0'>
       <div className="col">
-        <div>
+        <div className='p-3 p-sm-0 '>
           <div>
             <h4 className='blogs_details_subtitle mb-4'>{details.subHeading}</h4>
             <p className='blogs_details_fristTitle mb-0'>{details.fristTitle}</p>
-            <img src={details.long_img} alt="" className='img-fluid my-5' />
+            <img src={details.long_img} alt="" className='img-fluid my-5 w-100' />
             <p className='blogs_details_fristTitle'>{details.secondTitle}</p>
           </div>
           <div className='my-5'>
@@ -25,7 +25,7 @@ const Details_left = ({ details }) => {
             }
             <p className='blogs_details_fristTitle my-4'>{details.list?.listBottom}</p>
           </div>
-          <div className='d-flex justify-content-between my-5'>
+          <div className='d-sm-flex justify-content-between my-5'>
             <h6 className='blogs_details_fristTitle tags'>Tag:
               <button className='tags-button ms-3'>{details.Tags}</button>
             </h6>

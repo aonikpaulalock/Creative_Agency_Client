@@ -32,3 +32,14 @@
   font: normal 400 16px/160% var(--font-family);
   color: #787A80;
 }
+
+@media (max-width:945px) {
+  .approach-container {
+    padding: 50px 0 ;
+  } 
+}
+@media (max-width:550px) {
+  .approach-container {
+    padding: 25px 0 ;
+  } 
+}

@@ -8,7 +8,7 @@ const Details_User = ({details}) => {
       <h5 className='recent-main recent-head'>AUTHOR</h5>
       <div>
         <div className='d-flex'>
-          <img src={details.user?.userImg} alt="" className='user-image me-4' />
+          <img src={details.user?.userImg} alt="" className='user-image me-sm-4 me-2' />
           <div>
             <div>
               <h5 className='destails_author'>{details.user?.author}</h5>

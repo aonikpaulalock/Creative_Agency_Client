@@ -53,3 +53,14 @@
   color:#787A80;
   padding-left: 35px;
 }
+
+/* @media (max-width:950px) {
+  .about_company_margin {
+    margin-top: 60px;
+}
+}
+@media (max-width:550px) {
+  .about_company_margin {
+    margin-top: 20px !important;
+}
+} */

@@ -6,7 +6,7 @@ import Latest_Projects from '../Blogs/Latest_Projects';
 
 const Details_Right = ({ details }) => {
   return (
-    <div className='mx-3'>
+    <div className='mx-3 mb-lg-0 mb-5'>
       <div className='icon-placement'>
         <input type="text" className="footer-input Blogs_input" placeholder="Search the blog.." />
         <BiSearch className='footer-icon blogs_input_icon' />

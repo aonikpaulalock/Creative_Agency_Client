@@ -9,9 +9,9 @@ const Team = () => {
           <div className="col-lg-4">
             <img src={team} alt="" className='team_image w-100'/>
           </div>
-          <div className="col-lg-4 offset-lg-1 offset-0">
-            <div className='service-heading team-heading'>
-              <h6>Creative people are all here</h6>
+          <div className="col-lg-4 offset-lg-1 offset-0 p-3 p-sm-0">
+            <div className='service-heading team-heading pt-3 pt-sm-0'>
+              <h6 className='pt-3 pt-lg-0'>Creative people are all here</h6>
               <h1>Meet our team</h1>
             </div>
            <div class="accordion" id="myAccordion">

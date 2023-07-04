@@ -6,10 +6,10 @@ const Details_Two_Side = ({details}) => {
   return (
     <div className='container'>
       <div className="row">
-        <div className="col-sm-8">
+        <div className="col-lg-8 g-0">
           <Details_left details={details}/>
         </div>
-        <div className="col-sm-4">
+        <div className="col-lg-4">
           <Details_Right details={details}/>
         </div>
       </div>

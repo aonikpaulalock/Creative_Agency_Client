@@ -4,6 +4,7 @@
   align-items: center;
   background: url('../../assets/Blog/Blogs/Blog_Details.png') no-repeat right center;
   height: 320px;
+  object-fit: contain;
 }
 
 .details_blogs_head h1 {
@@ -59,17 +60,27 @@
   font: normal 400 14px/150% var(--font-family);
   color: #787A80;
 }
+
 .blogs_user {
   color: #787A80 !important;
 }
+
 .blogs_user:hover {
   color: var(--secondary-color) !important;
 }
+
 .blog_details_logo {
   background: transparent !important;
   border: 1px solid #D7DADD;
 }
+
 .blog_details_logo:hover {
   border: 1px solid var(--secondary-color) !important;
   background-color: none !important;
+}
+
+@media (max-width:550px) {
+  .details_blogs_head h1{
+    font-size: 35px !important;
+  }
 }

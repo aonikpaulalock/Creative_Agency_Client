@@ -11,8 +11,8 @@ const Approach = () => {
       <div className='row gy-4'>
         {
           OurApproach.approaches?.map(approac =>
-            <div className='col-lg-3' key={approac.id}>
-              <div className='approach-card'>
+            <div className='col-lg-3 col-md-6' key={approac.id}>
+              <div className='approach-card p-3 p-lg-0'>
                 <h1>{approac.number}</h1>
                 <h5>{approac.title}</h5>
                 <p>{approac.des}</p>

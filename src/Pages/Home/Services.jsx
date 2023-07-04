@@ -10,7 +10,7 @@ const Services = () => {
       </div>
       <div className="row">
         <div className="col-lg-5 order-lg-1 order-2">
-          <div className="accordion-container">
+          <div className="accordion-container p-3 p-sm-0">
             <div className="accordion-container">
               <div className="accordion" id="myAccordion">
                 <div className="accordion-item">

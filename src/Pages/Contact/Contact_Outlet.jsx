@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 
 const Contact_Outlet = () => {
   return (
-    <div className='container mb-5 ps-4'>
+    <div className='container mb-5 ps-md-4 ps-0'>
       <div className="row">
         <div className="col-md-3">
           <div className="slider-heading">
@@ -31,7 +31,7 @@ const Contact_Outlet = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-8 offset-1">
+        <div className="col-md-8 offset-md-1 offset-0 ">
           <Outlet></Outlet>
         </div>
       </div>
