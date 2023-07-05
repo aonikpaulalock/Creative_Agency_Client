@@ -8,10 +8,10 @@ import { GiSelfLove } from 'react-icons/gi';
 import { IoIosArrowUp } from 'react-icons/io';
 const Footer = () => {
   return (
-    <div className='footer-container'>
+    <div className='footer-container p-5'>
       <div className="container">
-        <div className="row">
-          <div className="col-md-3">
+        <div className="row gy-md-3 gy-4 ">
+          <div className="col-lg-3 col-md-6">
             <div className='hire-us'>
               <h5 className='hire-heading pb-1'>WANT TO HIRE US?</h5>
               <h6>Call:
@@ -22,7 +22,7 @@ const Footer = () => {
               </h6>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-6">
             <div>
               <h6 className='hire-heading'>QUICK LINKS</h6>
               <ul className='hire-link-container'>
@@ -44,7 +44,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-6">
             <div>
               <h5 className='hire-heading pb-2 '>FOLLOW US</h5>
               <div className='d-flex'>
@@ -66,7 +66,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-6">
             <div>
               <h5 className='hire-heading pb-2 '>SIGN UP TO OUR NEWSLETTER</h5>
               <div className='icon-placement'>

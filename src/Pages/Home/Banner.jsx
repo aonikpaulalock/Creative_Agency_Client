@@ -9,7 +9,7 @@ const Banner = () => {
     <div className='banner-container'>
       <div className='container'>
         <Navber />
-        <div className="row">
+        <div className="row p-4 p-sm-0">
           <div className="col-md-5 order-md-1 order-2">
             <div className='banner-content'>
               <div className='d-flex align-items-center '>

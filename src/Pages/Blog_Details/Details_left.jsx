@@ -5,9 +5,9 @@ import { FaFacebookF, FaQuoteLeft } from 'react-icons/fa';
 
 const Details_left = ({ details }) => {
   return (
-    <div className='row me-lg-5 me-0 mb-5 g-0'>
+    <div className='row me-lg-5 me-0 mb-5 g-0  p-4 p-sm-0'>
       <div className="col">
-        <div className='p-3 p-sm-0 '>
+        <div className=''>
           <div>
             <h4 className='blogs_details_subtitle mb-4'>{details.subHeading}</h4>
             <p className='blogs_details_fristTitle mb-0'>{details.fristTitle}</p>

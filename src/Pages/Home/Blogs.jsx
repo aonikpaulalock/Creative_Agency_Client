@@ -6,14 +6,14 @@ const Blogs = () => {
   return (
     <div className="blogs-container">
       <div className='container'>
-        <div className="d-md-flex justify-content-between align-items-center mb-5 mb-md-0">
+        <div className="d-md-flex justify-content-between align-items-center mb-5 mb-md-0 p-4 p-sm-0">
           <div className='slider-heading'>
             <h5>Enjoy our latest projects</h5>
             <h1>Selected work</h1>
           </div>
           <button className='banner-button blogs-button'>View portfolio</button>
         </div>
-        <div className="row g-3 ">
+        <div className="row g-3 p-4 p-sm-0">
           {
             homeBlog.blogs.map(blog =>
               <div className='col-lg-4 col-md-6' key={blog.id}>

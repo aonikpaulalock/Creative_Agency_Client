@@ -31,8 +31,8 @@ const Projects = () => {
   return (
     <div className='slider-container'>
       <div className='container'>
-        <div className="d-md-flex justify-content-between align-items-center mb-5 mb-md-0 ">
-          <div className='slider-heading'>
+        <div className="d-md-flex justify-content-between align-items-center mb-5 mb-md-0 p-4 p-sm-0">
+          <div className='slider-heading '>
             <h5>Enjoy our latest projects</h5>
             <h1>Selected work</h1>
           </div>

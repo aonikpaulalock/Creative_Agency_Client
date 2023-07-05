@@ -5,14 +5,14 @@ import Marquee from 'react-fast-marquee';
 const WeDo = () => {
   return (
     <div className='container wedo-container'>
-      <div className="row g-0">
+      <div className="row g-0 p-4 p-sm-0">
         <div className="col-lg-6">
           <div className='weDo-heading'>
             <h6>{WhatDo.title}</h6>
             <p>{WhatDo.description}</p>
           </div>
         </div>
-        <div className="col-lg-5 offset-lg-1 offset-0">
+        <div className="col-lg-5 offset-lg-1 offset-0 p-4 p-sm-0">
           <div className="row g-0">
             <Marquee
               gradient={true}

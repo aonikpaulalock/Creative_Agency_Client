@@ -34,7 +34,7 @@ const Testimonials = () => {
   };
   return (
     <div className='container'>
-      <div className="row mb-lg-0 mb-5">
+      <div className="row mb-lg-0 mb-5 p-4 p-sm-0">
         <div className="col-lg-6 col-12 order-lg-1 order-2">
           <div className='slider-heading'>
             <h5>TESTIMONIALS</h5>

@@ -4,11 +4,11 @@ import "../../Styles/Home/Service.css"
 const Services = () => {
   return (
     <div className='container service-container'>
-      <div className='service-heading'>
+      <div className='service-heading p-4 p-sm-0'>
         <h6>CAPABILITIES</h6>
         <h1>Our services</h1>
       </div>
-      <div className="row">
+      <div className="row p-4 p-sm-0">
         <div className="col-lg-5 order-lg-1 order-2">
           <div className="accordion-container p-3 p-sm-0">
             <div className="accordion-container">

@@ -15,10 +15,10 @@ const BlogsBanner = () => {
       </div>
       <div className="row">
         {/* Left Blogs */}
-        <div className="col-lg-8">
+        <div className="col-lg-8  p-4 p-sm-0">
           <Blogs_Left_Side />
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4  p-4 p-sm-0">
           {/* Left Blogs */}
           <Blogs_Right_Side />
         </div>

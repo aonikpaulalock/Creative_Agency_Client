@@ -3,7 +3,18 @@
   padding-bottom: 120px;
   margin-bottom: 60px;
 }
+.portfolio_heading h1 {
+  font: normal 900 46px/130% var(--font-family) !important;
+  color: var(--primary-color);
+  margin: 0px 0 60px 0;
+}
 
+.portfolio_heading h5 {
+  font: normal 700 16px/150% var(--font-family) !important;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 .position-dot {
   background: url("../../assets/Home/Banner/dots-pattern.png") no-repeat top left;
 }
@@ -37,14 +48,20 @@
     padding-bottom: 80px;
     margin-bottom: 30px;
   }
-
-  .slider-heading h1 {
-    margin-bottom: 40px !important;
-    font-size: 37px !important;
+   .portfolio_heading {
+    text-align: center;
+   }
+  .portfolio_heading h1 {
+    font: normal 900 37px/130% var(--font-family) !important;
+    color: var(--primary-color);
+    margin: 0px 0 40px 0;
   }
 
-  .slider-heading h5 {
-    font-size: 14px !important;
+  .portfolio_heading h5 {
+    font: normal 700 14px/150% var(--font-family) !important;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 
   .portfolio-outlet-container {

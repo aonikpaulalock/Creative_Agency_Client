@@ -3,7 +3,7 @@ import Navber from '../../Shared/Navber';
 import "../../Styles/Details_Blog/Details_Blog.css"
 const Blog_Details_Banner = ({ details }) => {
   return (
-    <div className="banner_blogs_details mb-5">
+    <div className="banner_blogs_details mb-5 p-4 p-sm-0">
       <div className="container">
         <div className="row">
           <div className="col-md-9">

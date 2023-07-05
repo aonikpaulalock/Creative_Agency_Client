@@ -10,7 +10,7 @@ const PortfolioBanner = () => {
           <Navber />
           <div className="row">
             <div className="col-lg-4 col-12">
-              <div className="slider-heading">
+              <div className="portfolio_heading">
                 <h5>Our Work</h5>
                 <h1>Portfolio</h1>
               </div>

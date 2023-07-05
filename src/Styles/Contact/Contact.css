@@ -54,7 +54,10 @@
   padding-left: 35px;
 }
 
-/* @media (max-width:950px) {
+.active {
+  color: var(--secondary-color) !important;
+}
+@media (max-width:950px) {
   .about_company_margin {
     margin-top: 60px;
 }
@@ -63,4 +66,4 @@
   .about_company_margin {
     margin-top: 20px !important;
 }
-} */
+}
