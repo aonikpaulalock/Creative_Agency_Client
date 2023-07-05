@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 const useBlogs = () => {
   const [blogs, setBlogs] = useState([])
   useEffect(() => {
-    fetch("http://localhost:1000/blogs")
+    fetch("https://creative-agency-server-azure.vercel.app/blogs")
       .then(res =>  res.json())
       .then(data => {
         setBlogs(data)

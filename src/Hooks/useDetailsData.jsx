@@ -5,7 +5,7 @@ const useDetailsData = () => {
   const [details, setDetails] = useState({})
   console.log(details)
   useEffect(() => {
-    fetch(`http://localhost:1000/project/${dynamicId}`)
+    fetch(`https://creative-agency-server-azure.vercel.app/project/${dynamicId}`)
       .then(res => res.json())
       .then(data => {
         setDetails(data)

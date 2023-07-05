@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 const usePorfolio = () => {
   const [portfolio, setPortfolio] = useState([])
   useEffect(() => {
-    fetch("http://localhost:1000/projects")
+    fetch("https://creative-agency-server-azure.vercel.app/projects")
       .then(res =>  res.json())
       .then(data => {
         setPortfolio(data)
