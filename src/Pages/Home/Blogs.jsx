@@ -2,7 +2,9 @@ import React from 'react';
 import "../../Styles/Home/Blogs.css"
 import { homeBlog } from '../../Data/Blog';
 import { BsArrowRight } from 'react-icons/bs';
+import { useNavigate } from 'react-router-dom';
 const Blogs = () => {
+  const navigate = useNavigate()
   return (
     <div className="blogs-container">
       <div className='container'>
@@ -11,7 +13,9 @@ const Blogs = () => {
             <h5>Enjoy our latest projects</h5>
             <h1>Selected work</h1>
           </div>
-          <button className='banner-button blogs-button'>View portfolio</button>
+          <button
+            onClick={() => navigate("/portfolio")}
+            className='banner-button blogs-button'>View portfolio</button>
         </div>
         <div className="row g-3 p-4 p-sm-0">
           {

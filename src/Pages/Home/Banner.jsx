@@ -3,10 +3,12 @@ import "../../Styles/Home/Banner.css"
 import { bannerData } from '../../Data/Banner';
 import { BsArrowDown } from 'react-icons/bs';
 import Navber from '../../Shared/Navber';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import { Link, animateScroll as scroll } from "react-scroll";
 const Banner = () => {
+  const navigate = useNavigate();
   return (
-    <div className='banner-container'>
+    <div className='banner-container' id="banner">
       <div className='container'>
         <Navber />
         <div className="row p-4 p-sm-0">
@@ -17,7 +19,9 @@ const Banner = () => {
                 <h6 className='banner-sub-heading'>{bannerData.subHead}</h6>
               </div>
               <h1 className='banner-main-heading'>{bannerData.heading}{bannerData.CreateX}</h1>
-              <button className='banner-button'>View showcase</button>
+              <button
+                onClick={() => navigate("/portfolio")}
+                className='banner-button'>View showcase</button>
             </div>
           </div>
           <div className="col-md-7 order-md-2 order-1">
@@ -31,7 +35,15 @@ const Banner = () => {
             <h6>{bannerData.branding}</h6>
             <h6>{bannerData.seo}</h6>
           </div>
-          <Link className='scroll-down'>
+          <Link
+            className='scroll-down'
+            to="footer"
+            smooth={true}
+            duration={0}
+            spy={true}
+            exact='true'
+            offset={0}
+          >
             <BsArrowDown className='me-2' />
             Scroll down
           </Link>

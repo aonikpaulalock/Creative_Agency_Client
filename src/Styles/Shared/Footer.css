@@ -97,8 +97,10 @@
 }
 
 .footer-scrool {
+  cursor: pointer;
   font: normal 400 14px/150% var(--font-family);
   color: var(--white);
+  text-decoration: none;
 }
 
 .scrool-icon {

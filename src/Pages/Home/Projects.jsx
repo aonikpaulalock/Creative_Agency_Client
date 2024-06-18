@@ -6,8 +6,9 @@ import { image } from '../../Data/Slider';
 import CustomLeftArrow from './TestimonialsLogo';
 import CustomRightArrow from './Testimonials';
 import usePorfolio from '../../Hooks/usePortfolio';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 const Projects = () => {
+  const navigate = useNavigate();
   const [portfolio] = usePorfolio()
   const responsive = {
     superLargeDesktop: {
@@ -36,7 +37,9 @@ const Projects = () => {
             <h5>Enjoy our latest projects</h5>
             <h1>Selected work</h1>
           </div>
-          <button className='banner-button'>View portfolio</button>
+          <button className='banner-button'
+            onClick={() => navigate("/portfolio")}
+          >View portfolio</button>
         </div>
         <div className="carousel-container">
           <Carousel
@@ -46,11 +49,11 @@ const Projects = () => {
             renderDotsOutside={true}
           >
             {
-              portfolio.slice(3,7).map(imgag =>
+              portfolio.slice(3, 7).map(imgag =>
                 <div className="card card-hover" key={imgag._id}>
-                  <img className="" src={imgag.img}height={440} />
+                  <img className="" src={imgag.img} height={440} />
                   <div className="mt-3">
-                    <Link className='card-head'  to={`/portfolio/${imgag._id}`}>{imgag.heading}</Link>
+                    <Link className='card-head' to={`/portfolio/${imgag._id}`}>{imgag.heading}</Link>
                     <h5 className='card-sub'>{imgag.type[0]}</h5>
                   </div>
                 </div>

@@ -62,5 +62,6 @@
   font: normal 700 14px/150% var(--font-family);
   color: var(--white);
   text-decoration: none;
+  cursor: pointer;
 }
 

@@ -1,14 +1,23 @@
 import React from 'react';
 import "../Styles/Shared/Footer.css"
-import { Link } from 'react-router-dom';
 import { BiLogoInstagram } from 'react-icons/bi';
 import { FaFacebookF } from 'react-icons/fa';
-import { BsArrowRight,BsTwitter,BsBehance,BsDribbble } from 'react-icons/bs';
+import { BsArrowRight, BsTwitter, BsBehance, BsDribbble } from 'react-icons/bs';
 import { GiSelfLove } from 'react-icons/gi';
 import { IoIosArrowUp } from 'react-icons/io';
+import { Link, animateScroll as scroll } from "react-scroll";
+import { useLocation } from 'react-router-dom';
 const Footer = () => {
+  const location = useLocation();
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
-    <div className='footer-container p-5'>
+    <div className='footer-container p-5' id="footer">
       <div className="container">
         <div className="row gy-md-3 gy-4 ">
           <div className="col-lg-3 col-md-6">
@@ -81,7 +90,9 @@ const Footer = () => {
               <h6>© All rights reserved.</h6>
               <h6>Made with <GiSelfLove className='heart' />  by Createx Studio </h6>
             </div>
-            <div>
+            <div
+              onClick={scrollToTop}
+            >
               <h6 className='footer-scrool'>Go to top</h6>
               <button className='scrool-icon'>
                 <IoIosArrowUp className='icon-footer-top' />
