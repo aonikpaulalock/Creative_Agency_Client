@@ -15,7 +15,7 @@
 }
 
 .logo {
-  width: 50%;
+  width: 100%;
   animation: bounce 2s infinite ease-in-out, scale 1.5s infinite ease-in-out;
 }
 

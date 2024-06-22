@@ -1,4 +1,4 @@
-import image from "../assets/Home/Banner/banner-image-1.png"
+import image from "../assets/Home/Loading/loading6.gif"
 import "../Styles/Shared/Loading.css"
 const Loading = () => {
   return (

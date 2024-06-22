@@ -1,8 +1,9 @@
 .blogs-head {
   margin-bottom: 8px !important;
 }
+
 .blogs-head:hover {
- color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .blogs-sub {
@@ -31,6 +32,10 @@
   color: #1E212C;
   margin-bottom: 0;
   cursor: pointer;
+}
+
+.hover_link:hover {
+  color: var(--secondary-color);
 }
 
 .recent-main {
@@ -118,8 +123,18 @@
 .blogs_hover {
   text-decoration: none;
 }
+
+
 .blogs_hover:hover {
   color: var(--secondary-color) !important;
+}
+
+.hover_link {
+  text-decoration: none;
+}
+
+.hover_link:hover {
+  color: var(--secondary-color);
 }
 
 
