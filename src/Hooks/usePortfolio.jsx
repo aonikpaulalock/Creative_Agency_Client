@@ -1,16 +1,24 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
-const usePorfolio = () => {
-  const [portfolio, setPortfolio] = useState([])
+const usePortfolio = () => {
+  const [portfolio, setPortfolio] = useState([]);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
+    setLoading(true);
     fetch("https://creative-agency-server-azure.vercel.app/projects")
-      .then(res =>  res.json())
-      .then(data => {
-        setPortfolio(data)
+      .then((res) => res.json())
+      .then((data) => {
+        setPortfolio(data);
+        setLoading(false);
       })
-  }, [])
+      .catch((error) => {
+        console.error("Error fetching portfolio data:", error);
+        setLoading(false);
+      });
+  }, []);
 
-return [portfolio, setPortfolio]
+  return [portfolio, setPortfolio, loading];
+};
 
-}
-export default usePorfolio;
+export default usePortfolio;
