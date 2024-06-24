@@ -2,7 +2,13 @@ import React from 'react';
 
 const Contact_General_Inquiries = () => {
   return (
-    <div className='row'>
+    <div className='row'
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className='col p-4'>
         <h6 className='contact_form_head'>If you have any questions don’t be afraid to drop us a line. Leave us a little info, and we’ll be in touch.
         </h6>

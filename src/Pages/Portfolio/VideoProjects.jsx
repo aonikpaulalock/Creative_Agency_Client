@@ -14,7 +14,13 @@ const VideoProjects = () => {
 
 
   return (
-    <div className='row g-4'>
+    <div className='row g-4'
+      data-aos="fade-down"
+      data-aos-offset="200"
+      data-aos-duration="2000"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       {
         videoProjects.length ?
           videoProjects.map(app =>

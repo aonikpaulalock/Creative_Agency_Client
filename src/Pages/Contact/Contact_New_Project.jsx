@@ -1,7 +1,13 @@
 import React from 'react';
 const Contact_New_Project = () => {
   return (
-    <div className='row'>
+    <div className='row'
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className='col p-4 p-md-0'>
         <h6 className='contact_form_head'>Have a project in mind that you think we'd be a great fit for? We'd love to know what you're thinking.
         </h6>

@@ -5,7 +5,13 @@ import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 const About_Team = () => {
   return (
     <div className="about_team_conatiner">
-      <div className='container'>
+      <div className='container'
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="300"
+      >
         <div className="row">
           <div className="col-md-7">
             <div className='slider-heading mb-5'>

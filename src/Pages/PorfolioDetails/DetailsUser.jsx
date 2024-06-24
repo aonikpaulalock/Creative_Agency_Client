@@ -2,7 +2,13 @@ import React from 'react';
 import { FaQuoteLeft } from 'react-icons/fa';
 const DetailsUser = ({ details }) => {
   return (
-    <div className='col'>
+    <div className='col'
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className='row g-3'>
         <div className="col-md-6">
           <img src={details.user?.img1} alt="" className='img-fluid' />

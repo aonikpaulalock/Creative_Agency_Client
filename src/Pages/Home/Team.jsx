@@ -6,7 +6,13 @@ const Team = () => {
   const navigate = useNavigate()
   return (
     <div className="home_team_container">
-      <div className='container'>
+      <div className='container'
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="300"
+      >
         <div className="row p-4 p-sm-0">
           <div className="col-lg-4">
             <img src={team} alt="" className='team_image w-100' />

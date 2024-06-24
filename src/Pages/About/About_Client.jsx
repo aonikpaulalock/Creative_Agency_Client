@@ -3,7 +3,13 @@ import { Marquelogo } from '../../Data/MarqueLogos';
 import Marquee from "react-fast-marquee";
 const About_Client = () => {
   return (
-    <div className='container my-5 py-5'>
+    <div className='container my-5 py-5'
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="1500"
+    data-aos-easing="ease-in-out"
+    data-aos-delay="300"
+    >
       <div className='slider-heading'>
         <h5>CLIENTS</h5>
         <h1>Brands we've worked with</h1>

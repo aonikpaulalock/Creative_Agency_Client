@@ -3,7 +3,13 @@ import { OurApproach } from '../../Data/OurApproach';
 import "../../Styles/Home/Approach.css"
 const Approach = () => {
   return (
-    <div className='container approach-container'>
+    <div className='container approach-container'
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className='approuch-heading p-4 p-sm-0'>
         <h5>{OurApproach.headTitle}</h5>
         <h1>{OurApproach.heaing}</h1>

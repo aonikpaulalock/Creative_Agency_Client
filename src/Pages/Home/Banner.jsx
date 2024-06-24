@@ -11,7 +11,13 @@ const Banner = () => {
     <div className='banner-container' id="banner">
       <div className='container'>
         <Navber />
-        <div className="row p-4 p-sm-0">
+        <div className="row p-4 p-sm-0"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="300"
+        >
           <div className="col-md-5 order-md-1 order-2">
             <div className='banner-content'>
               <div className='d-flex align-items-center '>
@@ -44,7 +50,7 @@ const Banner = () => {
             exact='true'
             offset={0}
           >
-            <BsArrowDown className='me-2' />
+            <BsArrowDown className='me-2 bounce-icon' />
             Scroll down
           </Link>
           <div className='banner-award mt-3 mt-sm-0'>

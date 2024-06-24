@@ -3,7 +3,13 @@ import service from "../../assets/Home/Service/service-illustration.png"
 import "../../Styles/Home/Service.css"
 const Services = () => {
   return (
-    <div className='container service-container'>
+    <div className='container service-container'
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className='service-heading p-4 p-sm-0'>
         <h6>CAPABILITIES</h6>
         <h1>Our services</h1>

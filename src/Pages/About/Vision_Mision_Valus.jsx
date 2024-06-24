@@ -2,7 +2,13 @@ import React from 'react';
 import "../../Styles/About/Vision_Mision_Valus.css"
 const Vision_Mision_Valus = () => {
   return (
-    <div className='container pb-5 mb-5'>
+    <div className='container pb-5 mb-5'
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className="row">
         <div className="col-md-5 d-flex justify-content-center align-items-center">
           <div>

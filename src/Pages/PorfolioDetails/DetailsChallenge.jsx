@@ -2,7 +2,12 @@ import React from 'react';
 
 const DetailsChallenge = ({ details }) => {
   return (
-    <div className='col'>
+    <div className='col'
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300">
       <div className='row'>
         <div className="col">
           <img src={details.challange?.img} alt=""

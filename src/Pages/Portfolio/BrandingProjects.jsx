@@ -16,7 +16,13 @@ const BrandingProjects = () => {
   console.log(brandingProjects)
 
   return (
-    <div className='row g-4'>
+    <div className='row g-4'
+      data-aos="fade-down"
+      data-aos-offset="200"
+      data-aos-duration="2000"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       {brandingProjects.length ? (
         brandingProjects.map(app => (
           <div className="col-md-4" key={app._id}>

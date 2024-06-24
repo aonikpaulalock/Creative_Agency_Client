@@ -3,8 +3,14 @@ import { acchiveData } from '../../Data/Acchivements';
 import Marquee from "react-fast-marquee";
 const Acchivement = () => {
   return (
-    <div className='container acchivements-container mt-5 '>
-      <div className="row g-4 p-4 p-sm-0">
+    <div className='container acchivements-container mt-5'>
+      <div className="row g-4 p-4 p-sm-0"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="300"
+      >
         <div className="col-md-5">
           <div className='slider-heading'>
             <h5>{acchiveData.title}</h5>

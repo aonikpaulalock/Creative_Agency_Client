@@ -10,7 +10,13 @@ const AboutBanner = () => {
     <div className='about-banner-container mb-5 pb-5'>
       <div className="container">
         <Navber />
-        <div className="row">
+        <div className="row"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="300"
+        >
           <div className="col-lg-5">
             <div className='about-heading slider-heading'>
               <h5>About Us</h5>
@@ -18,7 +24,13 @@ const AboutBanner = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="300"
+        >
           <div className="col-lg-7 order-lg-1 order-2">
             <div className='about-content'>
               <div className='slider-heading'>

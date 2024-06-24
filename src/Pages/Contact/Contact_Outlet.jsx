@@ -1,9 +1,15 @@
 import React from 'react';
-import {NavLink, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 
 const Contact_Outlet = () => {
   return (
-    <div className='container mb-5 ps-4'>
+    <div className='container mb-5 ps-4'
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className="row">
         <div className="col-md-3">
           <div className="slider-heading">

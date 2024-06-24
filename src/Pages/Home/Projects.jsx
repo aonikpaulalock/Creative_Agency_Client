@@ -31,7 +31,13 @@ const Projects = () => {
   };
   return (
     <div className='slider-container'>
-      <div className='container'>
+      <div className='container'
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="300"
+      >
         <div className="d-md-flex justify-content-between align-items-center mb-5 mb-md-0 p-4 p-sm-0">
           <div className='slider-heading '>
             <h5>Enjoy our latest projects</h5>

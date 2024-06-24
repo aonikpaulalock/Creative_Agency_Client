@@ -3,7 +3,13 @@ import { Marquelogo } from '../../Data/MarqueLogos';
 import Marquee from "react-fast-marquee";
 const TestimonialsLogo = () => {
   return (
-    <div className='container my-5'>
+    <div className='container my-5'
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className="row g-0 p-4 p-sm-0">
         <Marquee
           gradient={true}

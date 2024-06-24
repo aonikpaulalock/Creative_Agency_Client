@@ -33,7 +33,13 @@ const Testimonials = () => {
     }
   };
   return (
-    <div className='container'>
+    <div className='container'
+      data-aos="fade-down"
+      data-aos-offset="200"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className="row mb-lg-0 mb-5 p-4 p-sm-0">
         <div className="col-lg-6 col-12 order-lg-1 order-2">
           <div className='slider-heading'>

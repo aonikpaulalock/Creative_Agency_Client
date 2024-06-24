@@ -6,7 +6,13 @@ import upwork from "../../assets/Home/Build-logo/upwork.png"
 import email from "../../assets/Home/Build-logo/email.png"
 const CompanyLogo = () => {
   return (
-    <div className='container d-block d-md-flex justify-content-md-center align-items-md-center mb-5'>
+    <div className='container d-block d-md-flex justify-content-md-center align-items-md-center mb-5'
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className='p-4 p-sm-0'>
         <h5 className='platform-heading'>Let's build something amazing together!</h5>
         <div className='d-md-flex justify-content-md-around justify-content-center'>

@@ -7,7 +7,13 @@ const Blogs = () => {
   const navigate = useNavigate()
   return (
     <div className="blogs-container">
-      <div className='container'>
+      <div className='container'
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="300"
+      >
         <div className="d-md-flex justify-content-between align-items-center mb-5 mb-md-0 p-4 p-sm-0">
           <div className='slider-heading'>
             <h5>Enjoy our latest projects</h5>

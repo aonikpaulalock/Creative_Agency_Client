@@ -4,7 +4,13 @@ import "../../Styles/Details_Blog/Details_Blog.css"
 const Blog_Details_Banner = ({ details }) => {
   return (
     <div className="banner_blogs_details mb-5 p-4 p-sm-0">
-      <div className="container">
+      <div className="container"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="300"
+      >
         <div className="row">
           <div className="col-md-9">
             <div>

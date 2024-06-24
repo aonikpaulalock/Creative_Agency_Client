@@ -5,7 +5,13 @@ import { FaFacebookF } from 'react-icons/fa';
 import { BsTwitter, BsBehance, BsDribbble } from 'react-icons/bs';
 const Detailsgoal = ({ details }) => {
   return (
-    <div className='col'>
+    <div className='col'
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className="goal-container">
         <div>
           <h6 className='details-type'>| {details.type}</h6>
